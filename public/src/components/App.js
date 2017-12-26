@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 
 export default class App extends Component {
-	componentWillMount() {
+  componentWillMount() {
     this.props.loadUserFromToken();
   }
 
